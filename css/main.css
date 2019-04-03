@@ -1,0 +1,165 @@
+@import './reset.css';
+.menu {
+     height: 100vh;
+     width: 300px;
+     background-color: #7C7C7C;
+     float: left;
+}
+
+.content {
+     width: 100vw;
+     height: 100vh;
+ }
+
+.menu .title .min_picture {
+     background: url('../images/imgTag.png') no-repeat;
+     background-size: 80px auto;
+     height: 80px;
+     width: 80px;
+     display: inline-block;
+     border-radius: 50px;
+}
+
+.content .picture {
+     background: url('../images/imgTag.png') no-repeat;
+     background-size: 150px auto;
+     height: 150px;
+     width: 150px;
+     display: inline-block;
+     border-radius: 150px;
+     margin-top: -18px;
+}
+
+.content .picture-text{
+	margin-left: 20px;
+	line-height: 35px;　　
+}
+
+.menu .title span {
+    font-size: 2em;
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+.title {
+     padding: 20px 15px;
+     background-color: #4A4A4A;
+}
+.menu .link{
+   width: 100%;
+   position: absolute;
+   left: 0;
+   bottom: 0;
+}
+
+.menu .link div {
+   height: 20px;
+   width: 20px;
+   display: inline-block;
+   padding: 10px;
+   border-radius: 5px;
+   margin: 10px 10px;
+}
+
+.menu .link .fb {
+   background: url('../images/facebook-logo.png') no-repeat;
+}
+
+.menu .link .github {
+   background: url('../images/github-logo.png') no-repeat;
+   background-size: 15px auto;
+}
+
+.menu .link .twitter {
+   background: url('../images/twitter-logo.png') no-repeat;
+   background-size: 20px auto;
+}
+
+.menu ul li {
+    font-size: 1.3em;
+    font-width:300;
+    padding: 10px 30px;
+    color: #ffffff;
+}
+
+.menu ul li:hover {
+    background-color: #e29e9e;
+    color: #4a4a4a;
+    transition: 1s;
+}
+
+.content .banner {
+     width: 81%;
+     height: 300px;
+     margin-left: 19%;
+     background: url('../images/banner.jpg') no-repeat;
+     background-size: cover;
+     
+}
+.content .banner .div{
+	margin-top: 80px;
+	margin-left: 100px;
+}
+.content .banner div{
+	display: inline-block;
+	vertical-align: top;
+}
+.content .banner div{
+	color: #ffffff;
+	font-size: 1.5em;
+	font-width:300;
+}
+.content .news{
+   display: inline-block;
+   margin-top: 100px;
+   margin-left: 200px;
+}
+.content .news .new-title{
+   font-size: 2em;
+   margin-bottom: 50px;
+}
+.content .news li{
+   font-size: 1.2em;
+   line-height: 35px;
+   font-style: italic;
+   background-color: #9e9e9e26;
+   border: 1px solid #ffffff;
+   padding-right: 500px;
+   margin: 2px 5px;
+   padding: 4px 500px 4px 10px;
+}
+.content .news a{
+	 /* blue colors for links too */
+  color: black;
+   /* no underline */
+  text-decoration: inherit;
+}
+.content .news a:hover {
+  color: white;
+}
+.content .news li:hover{
+   background-color: #9e9e9e;
+   transition: 1s
+}
+
+.content .news .more{
+   font-size: 1.2em;
+   float:right;
+   color: white;
+}
+.more-btn {
+	background-color: #9e9e9e;
+	text-align: center;
+	margin: 10px 15px;
+	padding: 7px 12px;
+	border-radius: 14px;
+	box-shadow: 1px 3px #000000;
+	font-style: italic;
+}
+.more-btn:hover {
+	background-color: #4e4e4e;
+}
+.div span {
+	color: #ffffff;
+  font-size: 0.5em;
+}
